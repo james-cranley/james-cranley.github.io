@@ -54,9 +54,9 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at _https://james-cranley.github.io/cranley_cv.html_")
+  cat("View this CV online with links at _/Users/jc48/Documents/GitHub/james-cranley.github.io/cv.html_")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://james-cranley.github.io/cranley_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](/Users/jc48/Documents/GitHub/james-cranley.github.io/cv.pdf)")
 }
 ```
 
