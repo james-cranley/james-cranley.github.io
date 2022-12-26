@@ -45,11 +45,8 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
-```{r}
-# Build interactive network of positions colored by section
-# and connected if they occurred in the same year
-datadrivencv::build_network_logo(CV$entries_data)
-```
+<!-- Swap image with your preferred logo -->
+![James Cranley](https://media.licdn.com/dms/image/C4D03AQF5uR3sCF6-_Q/profile-displayphoto-shrink_400_400/0/1640197505934?e=1677715200&v=beta&t=xBfjClr73r7m--ZN2IvA7VNGfMVr_8wa8pc3dAelb4k){width=90%}
 
 
 ```{r}
@@ -81,10 +78,6 @@ CV %>% print_skill_bars()
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
-
-The source code is available [on github.com/nstrayer/cv](/Users/jc48/Documents/GitHub/james-cranley.github.io/cv/).
-
 Last updated on `r Sys.Date()`.
 
 
@@ -92,7 +85,7 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-James Cranley {#title}
+**James Cranley** {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -120,7 +113,7 @@ CV %<>% print_section('research_positions')
 
 
 
-Industry Experience {data-icon=suitcase}
+Clinical Experience {data-icon=hospital}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -153,43 +146,8 @@ CV %<>% print_section('teaching_positions')
 
 
 
-Selected Data Science Writing {data-icon=chart-line}
---------------------------------------------------------------------------------
 
-::: aside
-```{r}
-CV %<>% print_text_block('data_science_writing_aside')
-```
-:::
-
-```{r}
-CV %<>% print_section('data_science_writings')
-```
-
-
-
-Selected Press (About)  {data-icon=newspaper}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('about_me_press')
-```
-
-
-<br>
-<br>
-
-
-Selected Press (By)  {data-icon=newspaper}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('by_me_press')
-```
-
-
-
-Selected Publications, Posters, and Talks {data-icon=book}
+Publications {data-icon=chart-line}
 --------------------------------------------------------------------------------
 
 ```{r}
