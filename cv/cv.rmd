@@ -51,7 +51,7 @@ Aside
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at _https://james-cranley.github.io/cv/cv.html_")
+  cat("View this CV online with links at [here](https://james-cranley.github.io/cv/cv.html)")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://james-cranley.github.io/cv/cv.pdf)")
 }
@@ -65,10 +65,9 @@ CV %>% print_contact_info()
 ```
 
 
-
-
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
+
 
 Last updated on `r Sys.Date()`.
 
@@ -126,6 +125,41 @@ Teaching Experience {data-icon=chalkboard-teacher}
 CV %<>% print_section('teaching_positions')
 ```
 
+
+
+#Selected Data Science Writing {data-icon=chart-line}
+#--------------------------------------------------------------------------------
+
+#::: aside
+#```{r}
+#CV %<>% print_text_block('data_science_writing_aside')
+#```
+#:::
+
+#```{r}
+#CV %<>% print_section('data_science_writings')
+#```
+
+
+
+#Selected Press (About)  {data-icon=newspaper}
+#--------------------------------------------------------------------------------
+
+#```{r}
+#CV %<>% print_section('about_me_press')
+#```
+
+
+<br>
+<br>
+
+
+#Selected Press (By)  {data-icon=newspaper}
+#--------------------------------------------------------------------------------
+#
+#```{r}
+#CV %<>% print_section('by_me_press')
+#```
 
 
 
