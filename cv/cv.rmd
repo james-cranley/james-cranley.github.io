@@ -113,7 +113,7 @@ CV %<>% print_section('education')
 
 
 
-Research Experience {data-icon=laptop, #research}
+Research Experience {data-icon=laptop data-concise=true, #research}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -122,7 +122,7 @@ CV %<>% print_section('research_positions')
 
 
 
-Clinical Experience {data-icon=hospital, #clinical}
+Clinical Experience {data-icon=hospital data-concise=true, #clinical}
 --------------------------------------------------------------------------------
 
 
@@ -135,7 +135,7 @@ CV %<>% print_section('industry_positions')
 <br>
 <br>
 
-Teaching Experience {data-icon=chalkboard-teacher, #teaching}
+Teaching Experience {data-icon=chalkboard-teacher data-concise=true, #teaching}
 --------------------------------------------------------------------------------
 
 
@@ -150,7 +150,7 @@ CV %<>% print_section('teaching_positions')
 
 
 
-Publications {data-icon=chart-line, #publications}
+Publications {data-icon=chart-line data-concise=true, #publications}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -164,7 +164,7 @@ CV %<>% print_links()
 ```
 
 
-Presentations and Posters {data-icon=lightbulb, #presentations}
+Presentations and Posters {data-icon=lightbulb data-concise=true, #presentations}
 --------------------------------------------------------------------------------
 
 
@@ -172,7 +172,7 @@ Presentations and Posters {data-icon=lightbulb, #presentations}
 CV %<>% print_section('data_science_writings')
 ```
 
-Qualifications and Awards {data-icon=medal, #qualifications}
+Qualifications and Awards {data-icon=medal data-concise=true, #qualifications}
 --------------------------------------------------------------------------------
 
 
@@ -181,7 +181,7 @@ CV %<>% print_section('by_me_press')
 ```
 
 
-Clinical Audit  {data-icon=key, #audit}
+Clinical Audit  {data-icon=key data-concise=true, #audit}
 --------------------------------------------------------------------------------
 
 ```{r}
