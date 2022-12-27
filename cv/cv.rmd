@@ -51,9 +51,9 @@ Aside
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at _/Users/jc48/Documents/GitHub/james-cranley.github.io/cv/cv.html_")
+  cat("View this CV online with links at _https://james-cranley.github.io/cv/cv.html_")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](/Users/jc48/Documents/GitHub/james-cranley.github.io/cv/cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://james-cranley.github.io/cv/cv.pdf)")
 }
 ```
 
@@ -64,14 +64,6 @@ Contact {#contact}
 CV %>% print_contact_info()
 ```
 
-
-
-Language Skills {#skills}
---------------------------------------------------------------------------------
-
-```{r}
-CV %>% print_skill_bars()
-```
 
 
 
@@ -116,11 +108,6 @@ CV %<>% print_section('research_positions')
 Clinical Experience {data-icon=hospital}
 --------------------------------------------------------------------------------
 
-::: aside
-```{r}
-CV %<>% print_text_block('industy_experience_aside')
-```
-:::
 
 ```{r}
 CV %<>% print_section('industry_positions')
@@ -134,11 +121,6 @@ CV %<>% print_section('industry_positions')
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-::: aside
-```{r}
-CV %<>% print_text_block('teaching_experience_aside')
-```
-:::
 
 ```{r}
 CV %<>% print_section('teaching_positions')
