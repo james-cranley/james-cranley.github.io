@@ -64,13 +64,23 @@ Contact {#contact}
 CV %>% print_contact_info()
 ```
 
+Contents {#contents}
+--------------------------------------------------------------------------------
+
+[Education](#education)  
+[Research Experience](#research)  
+[Clinical Experience](#clinical)  
+[Teaching Experience](#teaching)  
+[Publications](#publications)  
+[Posters and Presentations](#presentations)  
+[Awards and Qualifications](#qualifications)  
+
 Personal details {#personal-details}
 --------------------------------------------------------------------------------
 
-
 Born: 1989  
 Nationality: British  
-Please [contact me](mailto:jc48@sanger.ac.uk) for further details & referees
+[Contact me](mailto:jc48@sanger.ac.uk) fordetails & referees
 
 
 Disclaimer {#disclaimer}
@@ -94,7 +104,7 @@ CV %<>% print_text_block("intro")
 
 
 
-Education {data-icon=graduation-cap data-concise=true}
+Education {data-icon=graduation-cap data-concise=true, #education}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -103,7 +113,7 @@ CV %<>% print_section('education')
 
 
 
-Research Experience {data-icon=laptop}
+Research Experience {data-icon=laptop, #research}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -112,7 +122,7 @@ CV %<>% print_section('research_positions')
 
 
 
-Clinical Experience {data-icon=hospital}
+Clinical Experience {data-icon=hospital, #clinical}
 --------------------------------------------------------------------------------
 
 
@@ -125,7 +135,7 @@ CV %<>% print_section('industry_positions')
 <br>
 <br>
 
-Teaching Experience {data-icon=chalkboard-teacher}
+Teaching Experience {data-icon=chalkboard-teacher, #teaching}
 --------------------------------------------------------------------------------
 
 
@@ -140,7 +150,7 @@ CV %<>% print_section('teaching_positions')
 
 
 
-Publications {data-icon=chart-line}
+Publications {data-icon=chart-line, #publications}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -153,7 +163,7 @@ CV %<>% print_section('academic_articles')
 CV %<>% print_links()
 ```
 
-Presentations and Posters {data-icon=lightbulb}
+Presentations and Posters {data-icon=lightbulb, #presentations}
 --------------------------------------------------------------------------------
 
 
@@ -161,7 +171,7 @@ Presentations and Posters {data-icon=lightbulb}
 CV %<>% print_section('data_science_writings')
 ```
 
-Qualifications and Awards {data-icon=medal}
+Qualifications and Awards {data-icon=medal, #qualifications}
 --------------------------------------------------------------------------------
 
 
@@ -170,7 +180,7 @@ CV %<>% print_section('by_me_press')
 ```
 
 
-Clinical Audit  {data-icon=key}
+Clinical Audit  {data-icon=key, #audit}
 --------------------------------------------------------------------------------
 
 ```{r}
