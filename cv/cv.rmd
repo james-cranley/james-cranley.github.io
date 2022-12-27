@@ -163,6 +163,7 @@ CV %<>% print_section('academic_articles')
 CV %<>% print_links()
 ```
 
+
 Presentations and Posters {data-icon=lightbulb, #presentations}
 --------------------------------------------------------------------------------
 
