@@ -64,6 +64,14 @@ Contact {#contact}
 CV %>% print_contact_info()
 ```
 
+Personal details {#personal-details}
+--------------------------------------------------------------------------------
+
+
+Born: 1989  
+Nationality: British  
+Please [contact me](mailto:jc48@sanger.ac.uk) for further details & referees
+
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
@@ -127,39 +135,8 @@ CV %<>% print_section('teaching_positions')
 
 
 
-#Selected Data Science Writing {data-icon=chart-line}
-#--------------------------------------------------------------------------------
-
-#::: aside
-#```{r}
-#CV %<>% print_text_block('data_science_writing_aside')
-#```
-#:::
-
-#```{r}
-#CV %<>% print_section('data_science_writings')
-#```
-
-
-
-#Selected Press (About)  {data-icon=newspaper}
-#--------------------------------------------------------------------------------
-
-#```{r}
-#CV %<>% print_section('about_me_press')
-#```
-
-
 <br>
 <br>
-
-
-#Selected Press (By)  {data-icon=newspaper}
-#--------------------------------------------------------------------------------
-#
-#```{r}
-#CV %<>% print_section('by_me_press')
-#```
 
 
 
@@ -174,5 +151,29 @@ CV %<>% print_section('academic_articles')
 
 ```{r}
 CV %<>% print_links()
+```
+
+Presentations and Posters {data-icon=lightbulb}
+--------------------------------------------------------------------------------
+
+
+```{r}
+CV %<>% print_section('data_science_writings')
+```
+
+Qualifications and Awards {data-icon=medal}
+--------------------------------------------------------------------------------
+
+
+```{r}
+CV %<>% print_section('by_me_press')
+```
+
+
+Clinical Audit  {data-icon=key}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('about_me_press')
 ```
 
