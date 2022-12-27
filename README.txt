@@ -1,3 +1,3 @@
 # README
 
-This is my personal site :hospital:
+personal site
