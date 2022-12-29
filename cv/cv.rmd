@@ -73,7 +73,7 @@ Contents {#contents}
 [Teaching Experience](#teaching)  
 [Publications](#publications)  
 [Posters and Presentations](#presentations)  
-[Awards and Qualifications](#qualifications)  
+[Courses and Qualifications](#qualifications)  
 
 Personal details {#personal-details}
 --------------------------------------------------------------------------------
@@ -172,7 +172,7 @@ Presentations and Posters {data-icon=lightbulb data-concise=true, #presentations
 CV %<>% print_section('data_science_writings')
 ```
 
-Qualifications and Awards {data-icon=medal data-concise=true, #qualifications}
+Courses, Qualifications and Awards {data-icon=medal data-concise=true, #qualifications}
 --------------------------------------------------------------------------------
 
 
