@@ -122,3 +122,8 @@ sup {
   margin: 0.5rem;
   box-shadow: 1px 1px 4px black;
 }
+
+/* page break */
+.page-break {
+    page-break-after: always;
+}

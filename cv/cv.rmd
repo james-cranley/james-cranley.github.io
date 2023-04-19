@@ -46,7 +46,7 @@ Aside
 ================================================================================
 
 <!-- Swap image with your preferred logo -->
-![James Cranley](https://media.licdn.com/dms/image/C4D03AQF5uR3sCF6-_Q/profile-displayphoto-shrink_400_400/0/1640197505934?e=1677715200&v=beta&t=xBfjClr73r7m--ZN2IvA7VNGfMVr_8wa8pc3dAelb4k){width=90%}
+![James Cranley](https://media.licdn.com/dms/image/C4D03AQF5uR3sCF6-_Q/profile-displayphoto-shrink_400_400/0/1640197505934?e=1687392000&v=beta&t=nyM88B4t-xy3j6ueK6-pz_8D3IWgC0I2vrHp-Tn_XX4){width=90%}
 
 
 ```{r}
@@ -70,8 +70,8 @@ Contents {#contents}
 [Education](#education)  
 [Research Experience](#research)  
 [Clinical Experience](#clinical)  
-[Teaching Experience](#teaching)  
 [Publications](#publications)  
+[Teaching Experience](#teaching)  
 [Posters and Presentations](#presentations)  
 [Courses and Qualifications](#qualifications)  
 
@@ -113,12 +113,10 @@ CV %<>% print_section('education')
 
 
 
-Research Experience {data-icon=laptop data-concise=true, #research}
---------------------------------------------------------------------------------
-
 ```{r}
-CV %<>% print_section('research_positions')
+CV %<>% print_links()
 ```
+
 
 
 
@@ -130,7 +128,36 @@ Clinical Experience {data-icon=hospital data-concise=true, #clinical}
 CV %<>% print_section('industry_positions')
 ```
 
-<!-- These breaks just force a new page so section doesnt get cut off -->
+
+<div class="page-break"></div>
+
+Research Experience {data-icon=laptop data-concise=true, #research}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('research_positions')
+```
+
+
+
+Publications {data-icon=chart-line data-concise=true, #publications}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('academic_articles')
+```
+
+
+
+Presentations and Posters {data-icon=lightbulb data-concise=true, #presentations}
+--------------------------------------------------------------------------------
+
+
+```{r}
+CV %<>% print_section('data_science_writings')
+```
+
+
 <br>
 <br>
 <br>
@@ -145,32 +172,7 @@ CV %<>% print_section('teaching_positions')
 
 
 
-<br>
-<br>
-
-
-
-Publications {data-icon=chart-line data-concise=true, #publications}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('academic_articles')
-```
-
-
-
-```{r}
-CV %<>% print_links()
-```
-
-
-Presentations and Posters {data-icon=lightbulb data-concise=true, #presentations}
---------------------------------------------------------------------------------
-
-
-```{r}
-CV %<>% print_section('data_science_writings')
-```
+<div class="page-break"></div>
 
 Courses, Qualifications and Awards {data-icon=medal data-concise=true, #qualifications}
 --------------------------------------------------------------------------------
