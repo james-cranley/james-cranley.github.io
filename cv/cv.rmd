@@ -111,13 +111,7 @@ Education {data-icon=graduation-cap data-concise=true, #education}
 CV %<>% print_section('education')
 ```
 
-
-
-```{r}
-CV %<>% print_links()
-```
-
-
+<div class="page-break"></div>
 
 
 Clinical Experience {data-icon=hospital data-concise=true, #clinical}
@@ -188,5 +182,9 @@ Clinical Audit  {data-icon=key data-concise=true, #audit}
 
 ```{r}
 CV %<>% print_section('about_me_press')
+```
+
+```{r}
+CV %<>% print_links()
 ```
 
