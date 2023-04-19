@@ -51,9 +51,9 @@ Aside
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at [here](https://james-cranley.github.io/cv/cv.html)")
+  cat("View my CV online with links  [here](https://james-cranley.github.io/cv/cv.html)")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://james-cranley.github.io/cv/cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of my CV](https://james-cranley.github.io/cv/cv.pdf)")
 }
 ```
 
