@@ -46,7 +46,7 @@ Aside
 ================================================================================
 
 <!-- Swap image with your preferred logo -->
-![James Cranley](https://media.licdn.com/dms/image/C4D03AQF5uR3sCF6-_Q/profile-displayphoto-shrink_400_400/0/1640197505934?e=1687392000&v=beta&t=nyM88B4t-xy3j6ueK6-pz_8D3IWgC0I2vrHp-Tn_XX4){width=90%}
+![James Cranley](https://media.licdn.com/dms/image/C4D03AQF5uR3sCF6-_Q/profile-displayphoto-shrink_400_400/0/1640197505934?e=1694649600&v=beta&t=vSGy810HharVY9iCXXI6qj1ZQXdXRLCVe4pRmGZtyJU){width=90%}
 
 
 ```{r}
