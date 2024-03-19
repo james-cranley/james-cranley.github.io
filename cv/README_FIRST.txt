@@ -1,3 +1,5 @@
+0) Run get_my_papers.ipynb
+
 1) Update the google sheet (https://docs.google.com/spreadsheets/d/1FDKosbW_bC9WvQKVsqhHbHmzXRIXS0sBUvE8cBBl2Ww/edit#gid=917338460)
 
 2) run render_cv.R in R studio to render new html and pdf
