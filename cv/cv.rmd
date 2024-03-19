@@ -46,7 +46,7 @@ Aside
 ================================================================================
 
 <!-- Swap image with your preferred logo -->
-![James Cranley](https://media.licdn.com/dms/image/C4D03AQF5uR3sCF6-_Q/profile-displayphoto-shrink_400_400/0/1640197505934?e=1694649600&v=beta&t=vSGy810HharVY9iCXXI6qj1ZQXdXRLCVe4pRmGZtyJU){width=90%}
+![James Cranley](ProfilePicture.png){width=80%}
 
 
 ```{r}
@@ -111,19 +111,6 @@ Education {data-icon=graduation-cap data-concise=true, #education}
 CV %<>% print_section('education')
 ```
 
-<div class="page-break"></div>
-
-
-Clinical Experience {data-icon=hospital data-concise=true, #clinical}
---------------------------------------------------------------------------------
-
-
-```{r}
-CV %<>% print_section('industry_positions')
-```
-
-
-<div class="page-break"></div>
 
 Research Experience {data-icon=laptop data-concise=true, #research}
 --------------------------------------------------------------------------------
@@ -171,9 +158,18 @@ CV %<>% print_section('teaching_positions')
 Courses, Qualifications and Awards {data-icon=medal data-concise=true, #qualifications}
 --------------------------------------------------------------------------------
 
-
 ```{r}
 CV %<>% print_section('by_me_press')
+```
+
+<div class="page-break"></div>
+
+Clinical Experience {data-icon=hospital data-concise=true, #clinical}
+--------------------------------------------------------------------------------
+
+
+```{r}
+CV %<>% print_section('industry_positions')
 ```
 
 
