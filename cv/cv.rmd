@@ -129,6 +129,7 @@ CV %<>% print_section('academic_articles')
 ```
 
 
+<div class="page-break"></div>
 
 Presentations and Posters {data-icon=lightbulb data-concise=true, #presentations}
 --------------------------------------------------------------------------------
