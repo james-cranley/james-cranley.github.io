@@ -1,3 +1,4 @@
 # README
 
-personal site
+Code for [personal site](https://james-cranley.github.io)
+
